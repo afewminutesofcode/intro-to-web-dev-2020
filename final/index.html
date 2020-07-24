@@ -2,6 +2,10 @@
 <html>
   <head>
     <title>Course</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Righteous&display=swap"
+      rel="stylesheet"
+    />
     <link href="./style.css" rel="stylesheet" />
   </head>
   <body>
@@ -19,8 +23,12 @@
 
     <main>
       <h2>Welcome to the page</h2>
-      <p>Here is some paragraph text</p>
-      <img src="https://via.placeholder.com/350x150" alt="img" />
+      <p>
+        Here is some sample text to welcome you to the page.
+        <a href="http://www.google.com" target="_blank">Click Here</a> to open
+        up a link
+      </p>
+      <img src="img.png" alt="img" />
       <h3>Sessions</h3>
       <table>
         <thead>
@@ -31,6 +39,16 @@
           </tr>
         </thead>
         <tbody>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+          </tr>
           <tr>
             <td>1</td>
             <td>2</td>
@@ -65,38 +83,41 @@
       <h3>Register</h3>
       <form>
         <div>
-          <label>First Name</label>
-          <input name="first_name" type="text" placeholder="Tom" />
+          <label>First Name*</label>
+          <input required name="first_name" type="text" placeholder="Tom" />
         </div>
         <div>
           <label>Last Name</label>
           <input name="last_name" type="text" placeholder="Smith" />
         </div>
         <div>
-          <label>Email Address</label>
-          <input name="email" type="email" placeholder="Smith" />
+          <label>Email Address*</label>
+          <input required name="email" type="email" />
         </div>
         <div>
           <label>Year of Birth</label>
           <input name="birth_year" type="number" placeholder="1980" />
         </div>
-        <div>
+        <div class="radio-field">
+          <p>What Session do you want to attend</p>
           <div>
-            <label>Morning</label>
-            <input name="session" type="radio" />
-          </div>
-          <div>
-            <label>Afternoon</label>
-            <input name="session" type="radio" />
-          </div>
-          <div>
-            <label>Evening</label>
-            <input name="session" type="radio" />
+            <div>
+              <input name="session" type="radio" />
+              <label>Morning</label>
+            </div>
+            <div>
+              <input name="session" type="radio" />
+              <label>Afternoon</label>
+            </div>
+            <div>
+              <input name="session" type="radio" />
+              <label>Evening</label>
+            </div>
           </div>
         </div>
-        <div>
+        <div class="checkbox-field">
           <label>Do you wish to recieve Emails?</label>
-          <input name="opt_in_emails" type="checkbox" placeholder="Smith" />
+          <input name="opt_in_emails" type="checkbox" />
         </div>
         <div>
           <input type="submit" value="Register" />

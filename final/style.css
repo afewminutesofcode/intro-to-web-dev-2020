@@ -9,14 +9,25 @@ html {
 body {
   margin: 0;
   padding: 0;
+  font-family: "Lato", sans-serif;
 }
 header {
-  background-color: yellow;
+  background-color: #861e0c;
+  color: #fff;
+  font-family: "Righteous", cursive;
   padding: 20px 0;
 }
+img {
+  max-width: 100%;
+}
 h1 {
+  font-family: "Righteous", cursive;
   margin: 0;
   text-align: center;
+}
+h2,
+h3 {
+  font-family: "Righteous", cursive;
 }
 nav {
   background-color: tomato;
@@ -32,16 +43,20 @@ nav li {
 }
 nav li a {
   color: #fff;
+  font-family: "Righteous", cursive;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 main {
-  padding: 0 10px;
+  padding: 20px 10px;
 }
 #testomonial-wrap {
   display: flex;
-  border: 1px solid #eee;
   border-radius: 5px;
+  justify-content: space-between;
 }
 .testomonial-item {
+  border: 1px solid #eee;
 }
 .testomonial-name {
 }
@@ -59,4 +74,49 @@ th {
   border: 1px solid #999;
   padding: 0.5rem;
   text-align: left;
+}
+
+button,
+input[type="submit"] {
+  background-color: tomato;
+  border: none;
+  color: #fff;
+  font-family: "Righteous", cursive;
+  font-size: 20px;
+  padding: 10px;
+}
+
+form {
+  border: 1px solid #999;
+  padding: 40px 20px;
+}
+form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+form div.radio-field div div {
+  flex-direction: row;
+  margin: 0 10px;
+}
+
+form div.radio-field div div label {
+  margin-left: 10px;
+}
+
+form div.checkbox-field {
+  flex-direction: row;
+}
+
+input {
+  font-size: 20px;
+  padding: 20px 0;
+  text-indent: 20px;
+}
+footer {
+  background-color: #861e0c;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
 }
