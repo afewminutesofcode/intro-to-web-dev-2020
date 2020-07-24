@@ -1,0 +1,62 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: yellow;
+  padding: 20px 0;
+}
+h1 {
+  margin: 0;
+  text-align: center;
+}
+nav {
+  background-color: tomato;
+  padding: 5px 0;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+nav li {
+  margin: 0 10px;
+}
+nav li a {
+  color: #fff;
+}
+main {
+  padding: 0 10px;
+}
+#testomonial-wrap {
+  display: flex;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+.testomonial-item {
+}
+.testomonial-name {
+}
+.testomonial-image {
+}
+.testomonial-text {
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #999;
+  padding: 0.5rem;
+  text-align: left;
+}
