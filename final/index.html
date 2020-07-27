@@ -9,9 +9,7 @@
     <link href="./style.css" rel="stylesheet" />
   </head>
   <body>
-    <header>
-      <h1>Header</h1>
-    </header>
+    <header>Header</header>
 
     <nav>
       <ul>
@@ -22,11 +20,16 @@
     </nav>
 
     <main>
-      <h2>Welcome to the page</h2>
+      <h1>Welcome to the page</h1>
       <p>
         Here is some sample text to welcome you to the page.
-        <a href="http://www.google.com" target="_blank">Click Here</a> to open
-        up a link
+        <a
+          href="http://www.google.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Click Here</a
+        >
+        to open up a link
       </p>
       <img src="img.png" alt="img" />
       <h3>Sessions</h3>
@@ -116,8 +119,8 @@
           </div>
         </div>
         <div class="checkbox-field">
-          <label>Do you wish to recieve Emails?</label>
           <input name="opt_in_emails" type="checkbox" />
+          <label>Do you wish to receive Emails?</label>
         </div>
         <div>
           <input type="submit" value="Register" />

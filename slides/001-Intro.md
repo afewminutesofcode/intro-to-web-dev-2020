@@ -1,4 +1,5 @@
-#intro
+# Intro
+
 When you visit a website you view a html document.
 
 All HTML documents consist of
@@ -32,11 +33,11 @@ The body tag contains the markup that the user will see when they view the page.
 <!doctype html>
 <html>
 <head>
-<title>My New Website</title>
+<title>Website Title</title>
 </head>
 <body>
 
-<p>Welcome to my website.</p>
+<p>Website Content</p>
 
 </body>
 </html>
