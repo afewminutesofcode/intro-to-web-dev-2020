@@ -5,13 +5,13 @@ There are a number of different elements that you can use on a page. As a genera
 eg To Open <p>
 To Close </p>
 
-### Sectional Elements
-
-Elements that help you describe the structure of the page eg `<header>`, `<nav>`, `<main>`, `<footer>`, `<h1>`.
-
 ### Text Elements
 
 Elements to put text in to eg `<p>`, `<div>`, `<ul>`, `<li>`, `<a>`
+
+### Sectional Elements
+
+Elements that help you describe the structure of the page eg `<header>`, `<nav>`, `<main>`, `<footer>`, `<h1>`.
 
 ### Image Elements
 

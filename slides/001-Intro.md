@@ -21,7 +21,7 @@ All content on the page needs to be wrapped in html tags.
 
 ### head tags
 
-The contents of the head tag doesn't get displayed to the computer but gets read by the browser to render the page.
+The contents of the head tag doesn't get displayed to the user but gets read by the browser to render the page.
 Tags such as the title tag appear here.
 
 ### body tags
