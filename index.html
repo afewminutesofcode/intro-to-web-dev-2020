@@ -1,13 +1,141 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Course Links</title>
+    <title>Intro to Web Development</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A website built during the Intro to Web Development video workshop"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./style.css" rel="stylesheet" />
   </head>
   <body>
-    <ul>
-      <li><a href="/001-intro/index.html">001 - Introduction</a></li>
-      <li><a href="/003-text-elements/">003 - Text Elements</a></li>
-      <li><a href="/final/index.html">Final</a></li>
-    </ul>
+    <header>Header</header>
+
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1>Welcome to the page</h1>
+      <p>
+        Here is some sample text to welcome you to the page.
+        <a
+          href="http://www.google.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Click Here</a
+        >
+        to open up a link
+      </p>
+      <img src="img.png" alt="Sunrise on the lake" />
+      <h3>Sessions</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Morning</th>
+            <th>Afternoon</th>
+            <th>Evening</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>West Building</td>
+            <td>West Building</td>
+            <td>West Building</td>
+          </tr>
+          <tr>
+            <td>East Building</td>
+            <td>East Building</td>
+            <td>East Building</td>
+          </tr>
+          <tr>
+            <td>South Building</td>
+            <td>South Building</td>
+            <td>South Building</td>
+          </tr>
+        </tbody>
+      </table>
+      <h3>Testominals</h3>
+      <div id="testomonial-wrap">
+        <div class="testomonial-item">
+          <div class="testomonial-image">
+            <img src="https://via.placeholder.com/150" alt="img" />
+          </div>
+          <div class="testomonial-name">Name</div>
+          <div class="testomonial-text">We had a great day</div>
+        </div>
+        <div class="testomonial-item">
+          <div class="testomonial-image">
+            <img src="https://via.placeholder.com/150" alt="img" />
+          </div>
+          <div class="testomonial-name">Name</div>
+          <div class="testomonial-text">We had a great day</div>
+        </div>
+        <div class="testomonial-item">
+          <div class="testomonial-image">
+            <img src="https://via.placeholder.com/150" alt="img" />
+          </div>
+          <div class="testomonial-name">Name</div>
+          <div class="testomonial-text">We had a great day</div>
+        </div>
+      </div>
+      <h3>Register</h3>
+      <form>
+        <div>
+          <label>First Name*</label>
+          <input required name="first_name" type="text" placeholder="Tom" />
+        </div>
+        <div>
+          <label>Last Name</label>
+          <input name="last_name" type="text" placeholder="Smith" />
+        </div>
+        <div>
+          <label>Email Address*</label>
+          <input required name="email" type="email" />
+        </div>
+        <div>
+          <label>Year of Birth</label>
+          <input name="birth_year" type="number" placeholder="1980" />
+        </div>
+        <div class="radio-field">
+          <p>What Session do you want to attend</p>
+          <div>
+            <div>
+              <input name="session" type="radio" />
+              <label>Morning</label>
+            </div>
+            <div>
+              <input name="session" type="radio" />
+              <label>Afternoon</label>
+            </div>
+            <div>
+              <input name="session" type="radio" />
+              <label>Evening</label>
+            </div>
+          </div>
+        </div>
+        <div class="checkbox-field">
+          <input name="opt_in_emails" type="checkbox" />
+          <label for="opt_in_emails">Do you wish to receive Emails?</label>
+        </div>
+        <div>
+          <input type="submit" value="Register" />
+        </div>
+      </form>
+    </main>
+
+    <footer>
+      This is the footer
+    </footer>
   </body>
 </html>

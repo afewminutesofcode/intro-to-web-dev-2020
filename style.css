@@ -76,7 +76,6 @@ th {
   text-align: left;
 }
 
-button,
 input[type="submit"] {
   background-color: tomato;
   border: none;
@@ -84,6 +83,10 @@ input[type="submit"] {
   font-family: "Righteous", cursive;
   font-size: 20px;
   padding: 10px;
+}
+
+button:disabled {
+  width: 100px;
 }
 
 form {
