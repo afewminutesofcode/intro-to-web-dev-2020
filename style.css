@@ -76,7 +76,8 @@ th {
   text-align: left;
 }
 
-input[type="submit"] {
+input[type="submit"],
+form button {
   background-color: tomato;
   border: none;
   color: #fff;
